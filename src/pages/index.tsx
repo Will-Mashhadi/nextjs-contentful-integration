@@ -10,10 +10,10 @@ interface Props {
 const Home: NextPage<Props> = ({ articles }) => (
   <div >
     <Head>
-      <title>My awesome Harry Potter blog</title>
+      <title>My blog</title>
       <meta
         name="description"
-        content="This is a blog with many intersting articles about Harry Potter."
+        content="This is a blog with many interesting articles."
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>
@@ -22,7 +22,7 @@ const Home: NextPage<Props> = ({ articles }) => (
       <h1>Welcome to my blog!</h1>
 
       <p >
-        This is a blog with many intersting articles.
+        This is a blog with many interesting articles about all sorts of topics.
       </p>
 
       <div >
